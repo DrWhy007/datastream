@@ -7,7 +7,7 @@ import json
 
 app = Flask(__name__)
 
-# HBase configuration
+# HBase configuration / Configuration HBase
 HBASE_HOST = 'localhost'
 HBASE_TABLE = 'sampleTable'
 HBASE_COLUMN_FAMILY = 'cf1'
